@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta charset="utf-8" />
+		<title>九宫格</title>
+		<style>
+			*{padding: 0;margin: 0;}
+			div{
+				width: 50%;
+				margin: 0 auto;
+				height: 100%;
+			}
+			ul{
+				width: 100%;
+				height: auto;
+			}
+			li{
+				list-style: none;
+				width: 30%;
+				height: 15vw;
+				margin-right: 1vw;
+				margin-bottom: 1vw;
+				border-radius: 10px;
+				-moz-border-radius: 10px;
+				-webkit-border-radius: 10px;
+				background: #e78326;
+				float: left;
+			}
+			.clearR{
+				margin-right: none;
+			}
+			.clearB{
+				margin-bottom: none;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div>
+			<ul>
+				<li></li>
+				<li></li>
+				<li class="clearR"></li>
+				<li></li>
+				<li></li>
+				<li class="clearR"></li>
+				<li class="clearB"></li>
+				<li class="clearB"></li>
+				<li class="clearR clearB"></li>
+			</ul>
+		</div>
+	</body>
+</html>
